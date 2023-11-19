@@ -54,3 +54,13 @@
     font-weight: bold; 
     font-size: 24px; 
 }
+
+/* Styles for the hover state of the 4 boxes*/
+.box:hover {
+    border-color: #007bff; 
+}
+
+.box:hover .content,
+.box:hover .content strong {
+    color: #007bff; 
+}
