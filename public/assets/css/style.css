@@ -1,3 +1,4 @@
+/*side bar css*/
 .sidebar {
     background-color: #343a40; 
     color: #f8f9fa; 
@@ -18,4 +19,16 @@
 .dashboard-kit {
     color: #adb5bd; 
     font-size: 16px; 
+}
+
+/* main content css*/
+.main-content {
+    padding-top: 20px; 
+}
+
+/* Styles for the profile photo */
+.rounded-circle {
+    border: 2px solid white; 
+    width: 30px;
+    height: 30px; 
 }
