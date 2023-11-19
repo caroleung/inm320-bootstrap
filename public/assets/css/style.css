@@ -64,3 +64,67 @@
 .box:hover .content strong {
     color: #007bff; 
 }
+
+* Styles for the big wrap box */
+.row {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+/* Styles for the line graph placeholder */
+.line-graph-placeholder {
+    background-color: #f8f9fa;
+    height: 200px;
+}
+
+/* Styles for the right wrap box */
+.data-wrap-box {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Styles for the data rows */
+.data-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #6c757d; 
+}
+
+/* Styles for the data labels */
+.data-label {
+    font-weight: normal;
+}
+
+/* Styles for the data numbers */
+.data-number {
+    font-weight: bold;
+    color: #000; 
+}
+
+/* Styles for the underlines */
+.data-divider {
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+/* Styles for the line graph header */
+.line-graph-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px;
+}
+
+/* Styles for the line graph title */
+.line-graph-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000; 
+    margin-bottom: 5px;
+}
+
+/* Styles for the line graph description */
+.line-graph-description {
+    color: #6c757d; 
+}
