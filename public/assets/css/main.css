@@ -19,7 +19,7 @@ height:auto;
 /* background-color: aqua; */
 }
 
-#logo h1{
+#logo p{
     font-family: Mulish;
     font-size: 19px;
     font-style: normal;
@@ -59,10 +59,12 @@ margin-right: 12px;
     /* margin-left: 0px; */
 }
 
-#sidebar li:hover {
+#sidebar li:active {
     background-color: #9fa2b410;
     /* opacity: 0.08; */
     color: #DDE2FF;
+    border-left: 2px solid;
+    border-color: #C5C7CD;
   }
 
 main{
