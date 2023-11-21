@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/main.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,247 +13,235 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
-          <!-- sidebar -->
-          <nav id=sidebar class="col-md-2 d-md-block sidebar vh-100% navbar navbar-expand-md navbar-dark">
-            
-            <!-- buger menu button -->
-            <button class="navbar-toggler mx-3 my-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <!-- collapse function -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <!-- ----------------- -->
+          <div class="row">
+            <!-- sidebar -->
+              <nav id=sidebar class="col-md-2 d-md-block sidebar vh-100% navbar navbar-expand-md navbar-dark">
+                
+                  <!-- buger menu button -->
+                  <button class="navbar-toggler mx-3 my-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <!-- collapse function -->
+                  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <!-- ----------------- -->
 
-            <!-- sidebar menu-->
-              <ul class="list-group-flush px-0">
-                <li id="logo" class="list-group-item">
-                  <img src="assets/images/sidebar/logo.png"alt="Logo" width="32" height="32">
-                <p>Dashboard Kit</p>
-                </li>
-                <li class="list-group-item">
-                  <img src="assets/images/sidebar/1. overview.png"alt="overview" width="16" height="16">
-                  Overview
-                </li>
-                <li class="list-group-item">
-                  <img src="assets/images/sidebar/2. tickets.png"alt="tickets" width="16" height="16">
-                  Tickets
-                </li>
-                <li class="list-group-item">
-                  <img src="assets/images/sidebar/3. ideas.png"alt="ideas" width="16" height="16">
-                  Ideas
-                </li>
-                <li class="list-group-item">
-                  <img src="assets/images/sidebar/4. contacts.png"alt="contacts" width="16" height="16">
-                  Contacts
-                </li>
-                <li class="list-group-item">
-                  <img src="assets/images/sidebar/5. agents.png"alt="agents" width="16" height="16">
-                  Agents
-                </li>
-                <li class="list-group-item">
-                  <img src="assets/images/sidebar/6. articles.png"alt="articles" width="16" height="16">
-                  Articles
-                </li>
-                <li class="list-group-item">
-                  <img src="assets/images/sidebar/horizontal.png"alt="articles">
-                </li>
-                <li class="list-group-item">
-                  <img src="assets/images/sidebar/a_1. settings.png"alt="settings" width="16" height="16">
-                  Settings
-                </li>
-                <li class="list-group-item">
-                  <img src="assets/images/sidebar/a_2. subscription.png"alt="subscription" width="16" height="16">
-                  Subscription
-                </li>
-              </ul>
-            </div>
-          </nav>
+                      <!-- sidebar menu-->
+                      <ul class="list-group-flush px-0">
+                          <li id="logo" class="list-group-item">
+                            <img src="assets/images/sidebar/logo.png"alt="Logo" width="32" height="32">
+                          <p>Dashboard Kit</p>
+                          </li>
+                          <li class="list-group-item">
+                            <img src="assets/images/sidebar/1. overview.png"alt="overview" width="16" height="16">
+                            Overview
+                          </li>
+                          <li class="list-group-item">
+                            <img src="assets/images/sidebar/2. tickets.png"alt="tickets" width="16" height="16">
+                            Tickets
+                          </li>
+                          <li class="list-group-item">
+                            <img src="assets/images/sidebar/3. ideas.png"alt="ideas" width="16" height="16">
+                            Ideas
+                          </li>
+                          <li class="list-group-item">
+                            <img src="assets/images/sidebar/4. contacts.png"alt="contacts" width="16" height="16">
+                            Contacts
+                          </li>
+                          <li class="list-group-item">
+                            <img src="assets/images/sidebar/5. agents.png"alt="agents" width="16" height="16">
+                            Agents
+                          </li>
+                          <li class="list-group-item">
+                            <img src="assets/images/sidebar/6. articles.png"alt="articles" width="16" height="16">
+                            Articles
+                          </li>
+                          <li class="list-group-item">
+                            <img src="assets/images/sidebar/horizontal.png"alt="articles">
+                          </li>
+                          <li class="list-group-item">
+                            <img src="assets/images/sidebar/a_1. settings.png"alt="settings" width="16" height="16">
+                            Settings
+                          </li>
+                          <li class="list-group-item">
+                            <img src="assets/images/sidebar/a_2. subscription.png"alt="subscription" width="16" height="16">
+                            Subscription
+                          </li>
+                      </ul>
+                  </div>
+              </nav>
 
-          <!-- Main Page -->
-          <main class="container-fluid col-md-10 px-5">
+              <!-- Main Page -->
+              <main class="container-fluid col-md-10 px-5">
 
-            <!-- headbar -->
-              <section class="row">
-                <div id="overview" class="col-sm-8">
-                  <p>Overview</p>
-                </div>
-                <div id="infobar" class="col-sm-4">
-                  <div>                
-                    <li class="list-group-item"><img src="assets/images/page/search.png"alt="search">
-                  </div>
-                  <div>                
-                      <li class="list-group-item ms-5"><img src="assets/images/page/new.png"alt="notification">
-                  </div>
-                  <div id="border">
-                    <img src="assets/images/sidebar/horizontal.png"alt="articles"> 
-                  </div>
-                  <p class="my-0">Jones Ferdinand</p>
-                  <div>
-                    <img class="mx-3" id="avator" src="assets/images/page/m header.png" alt="avator">
-                  </div>
-                </div>
-              </section>
-              
-            <!-- Tickets-->
-              <section class="row">
-                  <div class="boxes container col mx-3 mb-3 bg-white">
-                    <div class="boxTitle">Unresolved</div>
-                    <div class="boxData">60</div>
-                  </div>
-                  <div class="boxes container col mx-3 mb-3 bg-white">
-                    <div class="boxTitle">Overdue</div>
-                    <div class="boxData">16</div>
-                  </div>
-                  <div class="boxes container col mx-3 mb-3 bg-white">
-                    <div class="boxTitle">Open</div>
-                    <div class="boxData">43</div>
-                  </div>
-                  <div class="boxes container col mx-3 mb-3 bg-white">
-                    <div class="boxTitle">On hold</div>
-                    <div class="boxData">64</div>
-                  </div>
-              </section>
+                <!-- headbar -->
+                  <section class="row">
+                      <div id="overview" class="col-sm-8">
+                        <p>Overview</p>
+                      </div>
+                      <div id="infobar" class="col-sm-4">
+                          <div>                
+                            <li class="list-group-item"><img src="assets/images/page/search.png"alt="search">
+                          </div>
+                          <div>                
+                              <li class="list-group-item ms-5"><img src="assets/images/page/new.png"alt="notification">
+                          </div>
+                          <div id="border">
+                            <img src="assets/images/sidebar/horizontal.png"alt="articles"> 
+                          </div>
+                          <p class="my-0">Jones Ferdinand</p>
+                          <div>
+                            <img class="mx-3" id="avator" src="assets/images/page/m header.png" alt="avator">
+                          </div>
+                      </div>
+                  </section>
+                  
+                <!-- Tickets-->
+                  <section class="row">
+                      <div class="boxes container col mx-3 mb-3 bg-white">
+                        <div class="boxTitle">Unresolved</div>
+                        <div class="boxData">60</div>
+                      </div>
+                      <div class="boxes container col mx-3 mb-3 bg-white">
+                        <div class="boxTitle">Overdue</div>
+                        <div class="boxData">16</div>
+                      </div>
+                      <div class="boxes container col mx-3 mb-3 bg-white">
+                        <div class="boxTitle">Open</div>
+                        <div class="boxData">43</div>
+                      </div>
+                      <div class="boxes container col mx-3 mb-3 bg-white">
+                        <div class="boxTitle">On hold</div>
+                        <div class="boxData">64</div>
+                      </div>
+                  </section>
 
-              <!-- Trends -->
-              <section class="row border rounded-3 px-0 mx-0 mb-3 bg-white">
-                <div class="row col-md-8">
-                  <p class="todayTrends mt-4 mx-3">Today’s trends</p>
-                  <div class="todayTrendsTime row col-sm-8 mx-3" >as of 25 May 2019, 09:41 PM</div>
-                  <div class="todayTrendsTime row col-sm-2">     
-                    <div class="col"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="2" viewBox="0 0 18 2" fill="none">
-                      <path d="M1 1H17" stroke="#3751FF" stroke-width="2" stroke-linecap="round"/>
-                    </svg></div>
-                    <div class="col text-start">Today</div>
-                  </div>
-                  <div class="todayTrendsTime row col-sm-2">     
-                    <div class="col"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="2" viewBox="0 0 18 2" fill="none">
-                      <path d="M1 1H17" stroke="#DFE0EB" stroke-width="2" stroke-linecap="round"/>
-                    </svg></div>
-                    <div class="col px-0">Yesterday</div>
-                  </div>
-                  <img src="assets/images/todayTrend/full graph.png">
-                </div>   
-                <div class="row col-md-4 ">
-                    <div class="trendTable border-start border-bottom">
-                      <p class="trendInfo text-center">Resolved</p>
-                      <p class="trendNumber text-center">449</p>
-                    </div>
-                    <div class="trendTable border-start border-bottom">
-                      <p class="trendInfo text-center">Received</p>
-                      <p class="trendNumber text-center">426</p>
-                    </div>
-                    <div class="trendTable border-start border-bottom">
-                      <p class="trendInfo text-center">Average first response time</p>
-                      <p class="trendNumber text-center">33m</p>
-                    </div>
-                    <div class="trendTable border-start border-bottom">
-                      <p class="trendInfo text-center">Average response time</p>
-                      <p class="trendNumber text-center">3h 8m</p>
-                    </div>
-                    <div class="trendTable border-start">
-                      <p class="trendInfo text-center">Resolution within SLA</p>
-                      <p class="trendNumber text-center">94%</p>
-                    </div>
-                </div>
-              </section>
+                  <!-- Trends -->
+                  <section class="row border rounded-3 px-0 mx-0 mb-3 bg-white">
+                      <!-- Trends graph -->
+                      <div class="row col-md-8">
+                          <p class="todayTrends mt-4 mx-3">Today’s trends</p>
+                          <div class="todayTrendsTime row col-sm-8 mx-3" >as of 25 May 2019, 09:41 PM</div>
+                          <div class="todayTrendsTime row col-sm-2">     
+                              <div class="col"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="2" viewBox="0 0 18 2" fill="none">
+                                <path d="M1 1H17" stroke="#3751FF" stroke-width="2" stroke-linecap="round"/>
+                              </svg></div>
+                              <div class="col text-start">Today</div>
+                          </div>
+                          <div class="todayTrendsTime row col-sm-2">     
+                              <div class="col"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="2" viewBox="0 0 18 2" fill="none">
+                                <path d="M1 1H17" stroke="#DFE0EB" stroke-width="2" stroke-linecap="round"/>
+                              </svg></div>
+                              <div class="col px-0">Yesterday</div>
+                          </div>
+                          <img src="assets/images/todayTrend/full graph.png">
+                      </div> 
+                      <!-- Trends graph Data   -->
+                      <div class="row col-md-4 ">
+                            <div class="trendTable border-start border-bottom">
+                              <p class="trendInfo text-center">Resolved</p>
+                              <p class="trendNumber text-center">449</p>
+                            </div>
+                            <div class="trendTable border-start border-bottom">
+                              <p class="trendInfo text-center">Received</p>
+                              <p class="trendNumber text-center">426</p>
+                            </div>
+                            <div class="trendTable border-start border-bottom">
+                              <p class="trendInfo text-center">Average first response time</p>
+                              <p class="trendNumber text-center">33m</p>
+                            </div>
+                            <div class="trendTable border-start border-bottom">
+                              <p class="trendInfo text-center">Average response time</p>
+                              <p class="trendNumber text-center">3h 8m</p>
+                            </div>
+                            <div class="trendTable border-start">
+                              <p class="trendInfo text-center">Resolution within SLA</p>
+                              <p class="trendNumber text-center">94%</p>
+                            </div>
+                      </div>
+                  </section>
 
-              <!-- Base -->
-              <section class="row px-3">
+                  <!-- Base -->
+                  <section class="row px-3">
 
-                <!-- Unresolved tickets -->
-                <div class="container col-md border rounded-3 bg-white mb-3 me-4">
-                  <div class="bottomTable row">
-                    <div class="bottomTitle col-8 mt-4 px-4">Unresolved tickets</div>
-                    <div class="view col-4 text-end mt-4 px-4 mb-2">View details</div>
-                  </div>
-                  <div class="bottomTable row">
-                    <div class="bottomCaption col px-4 mb-5">Group: Support</div>
-                  </div>
-                  <div class="bottomTable row border-bottom">
-                    <div class="bottomBody col-8 px-4">Waiting on Feature Request</div>
-                    <div class="bottomNum col-4 text-end">4238</div>
-                  </div>
-                  <div class="bottomTable row border-bottom">
-                    <div class="bottomBody col-8 px-4">Awaiting Customer Response</div>
-                    <div class="bottomNum col-4 text-end">1005</div>
-                  </div>
-                  <div class="bottomTable row border-bottom">
-                    <div class="bottomBody col-8 px-4">Awaiting Developer Fix</div>
-                    <div class="bottomNum col-4 text-end">914</div>
-                  </div>
-                  <div class="bottomTable row">
-                    <div class="bottomBody col-8 px-4">Pending</div>
-                    <div class="bottomNum col-4 text-end">281</div>
-                  </div>
-                </div>
-      
-                <!-- Tasks -->
-                <div class="container col-md border rounded-3 bg-white mb-3">
-                  <div class="bottomTable row">
-                    <div class="bottomTitle col-6 mt-4 px-4">Tasks</div>
-                    <div class="view col-6 text-end mt-4 px-4 mb-2">View all</div>
-                  </div>
-                  <div class="bottomTable row">
-                    <div class="bottomCaption col-6 px-4 mb-5">Today</div>
-                  </div>
-                  <div class="bottomTable row border-bottom">
-                    <div id="newTask" class="col-md-6 ps-4">Create new task</div>
-                    <div class=" col-md-6 text-end"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="8" fill="#F0F1F7"/>
-                      <path d="M12 7V17" stroke="#9FA2B4" stroke-width="2" stroke-linecap="round"/>
-                      <path d="M17 12L7 12" stroke="#9FA2B4" stroke-width="2" stroke-linecap="round"/>
-                    </svg>
+                    <!-- Unresolved tickets -->
+                    <div class="container col-md border rounded-3 bg-white mb-3 me-4">
+                        <div class="bottomTable row">
+                          <div class="bottomTitle col-8 mt-4 px-4">Unresolved tickets</div>
+                          <div class="view col-4 text-end mt-4 px-4 mb-2">View details</div>
+                        </div>
+                        <div class="bottomTable row">
+                          <div class="bottomCaption col px-4 mb-5">Group: Support</div>
+                        </div>
+                        <div class="bottomTable row border-bottom">
+                          <div class="bottomBody col-8 px-4">Waiting on Feature Request</div>
+                          <div class="bottomNum col-4 text-end">4238</div>
+                        </div>
+                        <div class="bottomTable row border-bottom">
+                          <div class="bottomBody col-8 px-4">Awaiting Customer Response</div>
+                          <div class="bottomNum col-4 text-end">1005</div>
+                        </div>
+                        <div class="bottomTable row border-bottom">
+                          <div class="bottomBody col-8 px-4">Awaiting Developer Fix</div>
+                          <div class="bottomNum col-4 text-end">914</div>
+                        </div>
+                        <div class="bottomTable row">
+                          <div class="bottomBody col-8 px-4">Pending</div>
+                          <div class="bottomNum col-4 text-end">281</div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="bottomTable row border-bottom ps-4">
-                    <div class="form-check col-md-10">
-                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                      <label class="bottomBody form-check-label" for="flexRadioDefault1">
-                        Finish ticket update
-                      </label>
+          
+                    <!-- Tasks -->
+                    <div class="container col-md border rounded-3 bg-white mb-3">
+                        <div class="bottomTable row">
+                          <div class="bottomTitle col-6 mt-4 px-4">Tasks</div>
+                          <div class="view col-6 text-end mt-4 px-4 mb-2">View all</div>
+                        </div>
+                        <div class="bottomTable row">
+                          <div class="bottomCaption col-6 px-4 mb-5">Today</div>
+                        </div>
+                        <div class="bottomTable row border-bottom">
+                          <div id="newTask" class="col-md-6 ps-4">Create new task</div>
+                          <div class=" col-md-6 text-end"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect width="24" height="24" rx="8" fill="#F0F1F7"/>
+                            <path d="M12 7V17" stroke="#9FA2B4" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M17 12L7 12" stroke="#9FA2B4" stroke-width="2" stroke-linecap="round"/>
+                          </svg>
+                          </div>
+                        </div>
+                        <div class="bottomTable row border-bottom ps-4">
+                          <div class="form-check col-md-10">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="bottomBody form-check-label" for="flexRadioDefault1">
+                              Finish ticket update
+                            </label>
+                          </div>
+                          <div class="urgent col-md-2 text-center badge rounded-pill text-bg-warning text-white">Urgent</div>
+                        </div>
+                        <div class="bottomTable row border-bottom ps-4">
+                          <div class="form-check col-md-10">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="bottomBody form-check-label" for="flexRadioDefault1">
+                              Create new ticket example
+                            </label>
+                          </div>
+                          <div class="urgent col-md-2 text-center badge rounded-pill text-bg-success text-white">New</div>
+                        </div>
+                        <div class="bottomTable row ps-4">
+                          <div class="form-check col-md-10">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="bottomBody form-check-label" for="flexRadioDefault1">
+                              Update ticket report
+                            </label>
+                          </div>
+                          <div class="urgent col-md-2 text-center badge text-bg-light text-secondary">Default</div>
+                        </div>
                     </div>
-                    <div class="urgent col-md-2 text-center badge rounded-pill text-bg-warning text-white">Urgent</div>
-                  </div>
-                  <div class="bottomTable row border-bottom ps-4">
-                    <div class="form-check col-md-10">
-                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                      <label class="bottomBody form-check-label" for="flexRadioDefault1">
-                        Create new ticket example
-                      </label>
-                    </div>
-                    <div class="urgent col-md-2 text-center badge rounded-pill text-bg-success text-white">New</div>
-                  </div>
-                  <div class="bottomTable row ps-4">
-                    <div class="form-check col-md-10">
-                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                      <label class="bottomBody form-check-label" for="flexRadioDefault1">
-                        Update ticket report
-                      </label>
-                    </div>
-                    <div class="urgent col-md-2 text-center badge text-bg-light text-secondary">Default</div>
-                  </div>
-                </div>
-              </section>
-          </main>
-        </div>
+                  </section>
+              </main>
+          </div>
     </div>
-      
-    
-    <!-- <div class="container-fluid">
-        <div class="row">
-          <div id=sidebar class="col-sm-3 sidenav hidden-xs">
-            <div class="row">
-                <div id=logo class="col-sm">
-                <img src="assets/images/sidebar/logo.png"alt="Logo" width="32" height="32">
-                <div>Dashboard Kit</div>
-                </div>
-            </div>
-            
-        </div>
-    </div> -->
-
+    <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
